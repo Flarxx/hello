@@ -14,13 +14,19 @@ body{
 
     display: flex;
     justify-content: right;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     margin-right: 11rem;
+    gap: 1rem;
+    font-size: 18px;
 }
 
+.contenedor_inicio a:hover {
+    text-decoration: underline;
+}
 .inicio {
     text-decoration: none;
     color: inherit;
+    
 }
 
 /* este es el contenedor de la imagen  */

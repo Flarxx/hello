@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;}
+
+
+    body{
+        background-color: #202124;
+    }
+
+
+    /* aqui le estoy dando estilo al a primera parte del header */ 
+    .header {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+        padding-bottom: 1.2rem;
+    }
+
+
+    .contenedor_img {
+        width: 100%;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo{
+        width: 120px; 
+        height: auto;   
+         }
+
+         
+    .volver_a {
+        color: #f28b82;
+        margin-right: 3rem;
+        text-decoration: none;
+    }
+
+    
+
+
+    .advance_p{
+        font-size: 20px;
+        color: #f28b82;
+        margin-left: 3rem;
+        margin-top: 1.8rem;
+    }
+    
