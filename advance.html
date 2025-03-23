@@ -6,25 +6,64 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     </head>
     <body>
+
+        <!-- Header -->
         <header class="header">
-         <div class="contenedor_img"><img src="/img/google.png" class="logo">
-        <a class="volver_a" href="index.html"> Back to Advance search</a></div>
+         <div class="contenedor_img">
+            <img src="/img/google.png" class="logo">
+            <a class="volver_a" href="index.html"> Back to Home</a>
+        </div>
         <p class="advance_p">Advance Search</p>
         </header>
-        <form class="form_contenedor" method="get">
-           
-           <div class="contenedor_input">
 
-            <div class="contenedor_title"><p class="p">Find pages with...</p><p class="p">To do this in the search box.</p></div>
+        <!-- inicio del formulario -->
 
-            <div class="input_1"><label>all these words:<input type="text" class="input"></label><p>Type the important words:</p></div>
-            <div class="input_1"><label>this exact word or phrase:<input type="text" class="input"></label><p>Put exact words in quotes: "rat terrier"</p></div>
+
+        <div class="form_contenedor">
             
-           </div>
-        
-          
-        </form>
+            
+            <form class="form" method="get">
+                
+                
+                
+                    <div class="contenedor_title">
+                        <p class="p">Find pages with...</p>
+                        <p class="p">To do this in the search box.</p>
+                    </div>
+                        
+                        
+                        <div class="input_1">
+                                <label for="all_these_words">all these words:</label>
+                                <input type="text" class="input" id="all_these_words">
+                                <p>Type the important words:</p>
+                            </div>
+                            
+                            
+                            <div class="input_1">
+                                    <label for="this_word">this exact word or phrase:</label>
+                                    <input type="text" class="input" id="this_word">
+                                    <p>Put exact words in quotes: "rat terrier"</p>
+                                </div>
+
+                                    <div class="input_1">
+                                        <label for="any_words">Any of these words:</label>
+                                        <input type="text" id="any_words" class="input">
+                                        <p>Type OR between words.</p>
+                                    </div>
 
 
+                                    <div class="input_1">
+                                        <label for="none_words">None of these words:</label>
+                                        <input type="text" id="none_words" class="input">
+                                        <p>Type a minus sign (-) before words you don’t want.</p>
+                                </div>
+                    
+                                  
+            </form>
+       
+        </div>
+
+    
+                                     <!-- final del formulario -->
     </body>
 </html>
