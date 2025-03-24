@@ -55,6 +55,10 @@
 
    .form_contenedor{
     width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 900px;
     color: #969ba1;
     margin: 2rem;
     width: 60%;
@@ -66,14 +70,14 @@
    .contenedor_title{
 
     display: grid;
-    grid-template-columns: 200PX 1fr;
-    gap: 44rem;
+    grid-template-columns: 200PX 400px;
+    gap: 35rem;
     color: white;
    }
 
    .input_1{
     display: grid;
-    grid-template-columns: 200px 1fr 400px;
+    grid-template-columns: 200px 350px 400px;
     margin-top: 2rem;
     gap: 3rem;
    }
@@ -95,4 +99,29 @@
     border: 1px solid #4285f4;
     box-shadow: 0 0 5px rgba(66, 133, 244, 0.5);
     transition: all 0.2s ease-in-out;
+}
+
+.button {
+    margin-left: 12.5rem;
+    padding: 10px 10px;
+    color: #fff; /* Color del texto */
+    width: 150px;
+    background-color: #1a73e8; /* Azul más oscuro */
+    font-family:sans-serif;
+    letter-spacing: 0.05em; /* Ajuste del espaciado entre letras */
+    border: 1px solid #1a73e8; 
+    cursor: pointer;
+    font-size: 16px; 
+    -webkit-font-smoothing: antialiased; /* Suaviza los bordes */
+    transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease; /* Transición suave */
+}
+
+.button:hover {
+    background-color: #1558b0; /* Azul más oscuro cuando se pasa el mouse */
+    border-color: #1558b0; /* Borde más oscuro en hover */
+}
+
+.button:focus {
+    outline: none; /* Elimina el borde de enfoque predeterminado */
+    box-shadow: 0 0 0 2px rgba(67, 133, 232, 0.5); /* Sombra de enfoque */
 }
